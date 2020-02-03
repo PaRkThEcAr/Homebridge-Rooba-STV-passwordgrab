@@ -4,7 +4,7 @@ A small applescript to automate grabbing your BILD and Robot Password for Homebr
 
 This is a small AppleScript that can help in automating the process for Homebridge-Roomba-stv (https://github.com/esteban-mallen/homebridge-roomba-stv#readme credit to esteban-mallen for creating the plugin) for macOS users.
 
-set up is VERY simple. save the AppleScript application, and open it in Script Editor on macOS. From there, change the ServerAddress, ServerUserName, and ServerPassword to fit your SSH credentials
+set up is VERY simple. download the AppleScript application from the release section, and open it in Script Editor on macOS. From there, change the ServerAddress, ServerUserName, and ServerPassword to fit your SSH credentials
 
 ```
 tell application "Terminal"
