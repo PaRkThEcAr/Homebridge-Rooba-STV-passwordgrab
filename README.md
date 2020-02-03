@@ -6,11 +6,13 @@ This is a small AppleScript that can help in automating the process for Homebrid
 
 set up is VERY simple. save the AppleScript application, and open it in Script Editor on macOS. From there, change the ServerAddress, ServerUserName, and ServerPassword to fit your SSH credentials
 
+```
 tell application "Terminal"
 	set ServerAddress to "SERVER IP HERE"
 	set ServerUserName to "SSH LOGIN USERNAME HERE"
 	set ServerPassword to "PASSWORD HERE"
 end tell
+```
 
 next, save the app.
 
